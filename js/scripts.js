@@ -19,11 +19,13 @@ function pingpong(number){
 
 function displayResults(results) {
 
+
     listResults = document.createElement('ul');
 
     for(var i = 0; i < result.length; i++) {
         var li = document.createElement('li');
-        li.appendChild(document.createTextNode(results[i]));        listResults.appendChild(li);
+        li.appendChild(document.createTextNode(results[i]));
+        listResults.appendChild(li);
     }
     return listResults;
 };
