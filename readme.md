@@ -8,13 +8,13 @@ This is an Epicodus independent Project. This app it's a Fizz Buzz test: It take
 
 ## Specs
 
-|| Behavior || Input || Output ||
-|| --- || --- || --- ||
-|| It can count up to the provided number || 2 || [1,2] ||
-|| It returns an error message if the input is a negative number  || -2 || error-message ||
-|| Numbers divisible by 3 will become "ping"  || 6 || pong ||
-|| Numbers divisible by 5 will become "pong" || 5 || pong ||
-|| Numbers divisible by 3 and 5 will become "ping-pong" || 15 || ping-pong|| 
+| Behavior | Input | Output |
+| --- | --- | --- |
+| It can count up to the provided number | 2 | [1,2] |
+| It returns an error message if the input is a negative number  | -2 | error-message |
+| Numbers divisible by 3 will become "ping"  | 6 | pong |
+| Numbers divisible by 5 will become "pong" | 5 | pong |
+| Numbers divisible by 3 and 5 will become "ping-pong" | 15 | ping-pong| 
 
 
 ## Installation
