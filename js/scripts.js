@@ -35,12 +35,14 @@ $(document).ready(function() {
   $("form#formInput").submit(function(event) {
 
     event.preventDefault();
-    $("#display-results").empty();
+    $("#display-results1").empty();
+    $(".error-message").hide();
 
     var inputNumber = parseInt($("input").val());
 
     if (inputNumber < 0) {
-     alert("Please use only positive numbers");
+     $(".error-message").show();
+     $("#error-message").text("Please use only positive numbers");
     } else {
      pingpong(inputNumber);
      $(".display-results").show();

@@ -1,50 +1,51 @@
-/* make sidebar nav vertical  and aligned left*/
-
-.navbar-fixed-left {
-  width: 300px;
-  position: fixed;
-  border-radius: 0;
-  height: 100%;
+body {
+  background-color: #E0E1DD;
+  font-family: 'Oxygen', sans-serif;
 }
 
-.navbar-brand {
-  height: 50px;
-  padding: 15px 15px;
-  line-height: 40px;
-  margin-bottom: 20px;
-  width: 300px;
+.main {
+  color: #335C67;
+  padding-top: 20px;
 }
 
-.navbar-fixed-left p {
+.main p {
+  font-size: 2em;
+}
+
+/* Header and Footer  */
+
+.header {
+  padding-top: 5px;
+  color: white;
+  background-color: #DB504A;
+}
+
+.text-header {
+  padding-top: 40px;
   text-align: center;
-  font-weight: bold;
-  font-size: 30px;
-  font-variant: small-caps;
+  font-size: 4em;
 }
 
-.navbar-fixed-left .navbar-nav > li {
-  float: none;
-  text-align: center;
-  width: 300px;
+.footer {
+  background-color: #003459;
+  color: #E0E1DD;
+  position: relative;
+  margin-top: 30px;
+  height: 150px;
+  clear:both;
+  padding-top:30px;
 }
 
-.navbar-fixed-left + .container {
-  padding-left: 300px;
-}
-
-/* Add dividers for vertical nav bar */
-
-.navbar .divider-horizontal {
-    height: 1px;
-    margin: 9px 0;
-    background-color: #e5e5e5;
-}
-
-.jumbotron {
-  text-align: center;
+.col-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Display Results */
-.display-results {
+.display-results, .error-message {
   display: none;
+}
+.img-responsive {
+    margin: 0 auto;
+    padding: 5px;
 }
