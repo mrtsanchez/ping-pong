@@ -43,7 +43,8 @@ $(document).ready(function() {
      alert("Please use only positive numbers");
     } else {
      pingpong(inputNumber);
-    $("#display-results").append(displayResults(result));
+     $(".display-results").show();
+     $("#display-results1").append(displayResults(result));
     }
   });
 });

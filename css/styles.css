@@ -1,3 +1,50 @@
-body {
-  margin-top: 30px;
+/* make sidebar nav vertical  and aligned left*/
+
+.navbar-fixed-left {
+  width: 300px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-brand {
+  height: 50px;
+  padding: 15px 15px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.navbar-fixed-left p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;
+  text-align: center;
+  width: 300px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 300px;
+}
+
+/* Add dividers for vertical nav bar */
+
+.navbar .divider-horizontal {
+    height: 1px;
+    margin: 9px 0;
+    background-color: #e5e5e5;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+/* Display Results */
+.display-results {
+  display: none;
 }
