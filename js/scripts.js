@@ -19,7 +19,6 @@ function pingpong(number){
 
 function displayResults(results) {
 
-
     listResults = document.createElement('ul');
 
     for(var i = 0; i < result.length; i++) {
