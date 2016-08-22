@@ -40,7 +40,7 @@ body {
 }
 
 /* Display Results */
-.display-results, .error-message {
+.display-title, .error-message {
   display: none;
 }
 .img-responsive {
