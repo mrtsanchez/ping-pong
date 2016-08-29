@@ -59,14 +59,14 @@ $(document).ready(function() {
 
         $("#display-results" + [i]).append(listResults);
       };
-      $("#split-results").append("<div class='col-md-2'></div>");
+      $("#split-results").append("<div class='col-md-2'></div>").fadeIn();
     } else {
         pingpong(inputNumber);
         $(".display-title").show();
         $("#split-results").append("<div class='col-md-2'></div>");
         displayResults(result);
         $("#split-results").append("<div class='col-md-1'><span id='display-results'  class='display-results'></span></div>");
-        $("#display-results").append(listResults);
+        $("#display-results").append(listResults).slideDown();
     }
   });
 });

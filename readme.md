@@ -11,17 +11,16 @@ This is an Epicodus independent Project. This app it's a Fizz Buzz test: It take
 | Behavior | Input | Output |
 | --- | --- | --- |
 | It can count up to the provided number | 2 | [1,2] |
-| It returns an error message if the input is a negative number  | -2 | error-message |
-| Numbers divisible by 3 will become "ping"  | 6 | pong |
-| Numbers divisible by 5 will become "pong" | 5 | pong |
-| Numbers divisible by 3 and 5 will become "ping-pong" | 15 | ping-pong| 
+| Numbers divisible by 3 will become "ping"  | 3 | [1,2,ping] |
+| Numbers divisible by 5 will become "pong" | 5 | [1,2,3,ping,4,pong] |
+| Numbers divisible by 3 and 5 will become "ping-pong" | 15 | [1,2,3,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]|
 
 
 ## Installation
 
 Clone the github repository:
 
-// $ git clone https://github.com/mrtsanchez/ping-pong.git
+``$ git clone https://github.com/mrtsanchez/ping-pong.git``
 
 ## Credits
 
